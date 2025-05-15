@@ -1,0 +1,9 @@
+# Core dependencies
+protobuf>=3.20.0,<5.0.0
+
+# Try these versions if you encounter build issues
+grpcio>=1.51.0
+grpcio-tools>=1.51.0
+
+# If the above still causes errors, try installing from binary wheels
+# with: pip install --no-build-isolation grpcio grpcio-tools
